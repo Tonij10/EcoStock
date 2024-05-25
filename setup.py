@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='EcoStock',
-    version='1.1',
+    version='1.2',
     author="Antonio Paparo, Giovanni Paparo, Ludovica De Giacomo, Francesco Caldo",
     author_email="antoniopaparo@outlook.com, gio.paparo@outlook.it, ludovicadegiacomo@outlook.it, francesco.caldo00@gmail.com", 
     description='A Python package designed for finance professionals and economists',

@@ -46,7 +46,7 @@ from Ecostock.functions import *
 get_stock_data('AAPL', '2022-01-01', '2022-12-31')
 
 # Calculate the moving average of a stock's data within a year
-moving_avg_stock_data('AAPL', '2022', '2023')
+moving_avg_stock_data('AAPL', '2013', '2023')
 
 # Generate a MACD (Moving Average Convergence Divergence) plot for a stock within a date range
 macd('AAPL', '2020-01-01', '2023-12-31', 12, 26)
