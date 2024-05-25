@@ -139,7 +139,7 @@ portfolio_return(['AAPL', 'GOOG'], '2018-01-01', '2023-12-31')
 
 ## Documentation
 
-For basic usage and generic information, please refer to the [README](README.md) file.
+For basic usage and generic information, please refer to the [README](../README.md) file.
 
 ### API Documentation
 
@@ -190,8 +190,8 @@ The EcoStock package includes a FastAPI application that serves as the API for i
 - **URL:** `/portfolio_return/{tickers}/{start_date}/{end_date}`
 - **Description:** Generates a plot of portfolio return for the specified stocks within the provided date range.
 
-For more details on how to use these endpoints, please refer to the [API documentation](docs/API.md).
+For more details on how to use these endpoints, please refer to the [API documentation](../docs/API.md).
 
 ## License
 
-EcoStock is licensed under the MIT License. For more details, please refer to the [LICENSE](LICENSE.md) file. 
+EcoStock is licensed under the MIT License. For more details, please refer to the [LICENSE](../LICENSE.md) file. 
