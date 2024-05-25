@@ -1,4 +1,4 @@
-EcoStock==1.0
+EcoStock==1.1
 fastapi==0.110.2
 gunicorn==22.0.0
 matplotlib==3.8.2
