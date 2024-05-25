@@ -107,7 +107,7 @@ def moving_avg_stock_data(ticker, start_date, end_date):
     df = df.rolling(window=252).mean()
 
     # Resample the data to annual frequency, taking the last observation of each year. The 'Y' parameter represents annual frequency.
-    df = df.resample('Y').last()
+    df = df.resample('YE').last()
 
     # Modify the index to only include the year, by extracting the year from the index dates
     df.index = df.index.year
