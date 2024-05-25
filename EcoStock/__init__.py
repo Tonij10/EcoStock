@@ -7,7 +7,7 @@ The functions provided by EcoStock can be used to generate visualizations and in
 """
 
 # The current version of the EcoStock package
-__version__ = "0.6"
+__version__ = "0.7"
 
 # Import the FastAPI application from the api module
 from .api import app
