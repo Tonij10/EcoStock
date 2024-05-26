@@ -5,9 +5,9 @@ with open("README.md", "r") as fh:
 
 setup(
     name='EcoStock',
-    version='1.2',
+    version='1.3',
     author="Antonio Paparo, Giovanni Paparo, Ludovica De Giacomo, Francesco Caldo",
-    author_email="antoniopaparo@outlook.com, gio.paparo@outlook.it, ludovicadegiacomo@outlook.it, francesco.caldo00@gmail.com", 
+    author_email="antoniopaparo@outlook.com", 
     description='A Python package designed for finance professionals and economists',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -26,6 +26,7 @@ setup(
         'requests',
         'seaborn',
         'statsmodels',
+        'nbformat',
         'scikit-learn',
     ],
     classifiers=[
